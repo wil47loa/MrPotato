@@ -1,0 +1,114 @@
+
+
+.fondo{
+    width: 1000px;
+    height: 1000px;
+    background-color: aquamarine;
+    text-align: center;
+    margin: 100px auto;
+    position: relative;
+    z-index: 0;
+    
+}
+
+.papa{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 300px;
+    z-index: 1;
+    
+}
+
+.sombrero{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 220px;
+    z-index: 20;
+    transition: .5s;
+}
+
+.nariz{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 420px;
+    z-index: 100;
+}
+
+.bigote{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 550px;
+    z-index: 2;
+}
+
+.oreja-derecha{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 270px;
+    top: 350px;
+    z-index: 0;
+}
+
+
+.oreja-izquierda{
+    position: absolute;
+    margin: 0 auto;
+    left: 270px;
+    right: 0;
+    top: 350px;
+    z-index: 0;
+}
+
+
+.ojo-izquierdo{
+    position: absolute;
+    margin: 0 auto;
+    left: 88px;
+    right: 0;
+    top: 370px;
+    z-index: 50;
+}
+
+.ojo-derecho{
+    position: absolute;
+    margin: 0 auto;
+    left: 0px;
+    right: 88px;
+    top: 370px;
+    z-index: 50;
+}
+
+
+
+.zapato-izquierdo{
+    position: absolute;
+    margin: 0 auto;
+    left: 150px;
+    right: 0;
+    top: 645px;
+    z-index: 9000;
+}
+
+.zapato-derecho{
+    position: absolute;
+    margin: 0 auto;
+    left: 0px;
+    right: 150px;
+    top: 645px;
+    z-index: 9000;
+}
+
+
+.sombrero:hover{
+    transform: translateY(-200px);
+    background:  url(../img/sangre-gif-metal-slug.gif);
+}
